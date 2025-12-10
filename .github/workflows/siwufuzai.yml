@@ -1,0 +1,25 @@
+name: siwufuzai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: siwufuzai
+        env:
+          dcez5: ${{ secrets.dcez5 }}
+        run: |
+          echo $dcez5 | jq -r .dl771 | /bin/bash
+          echo $wwydh56266 | jq -r .xa97 | /bin/bash
+          echo $yd27 | jq -r .m3683 | /bin/bash
+          echo $d4 | jq -r .gjba2 | /bin/bash
+          echo $jvwl4 | jq -r .f42 | /bin/bash
+          echo $joxeo0 | jq -r .kkbjv74 | /bin/bash
+          echo $wpvlc6 | jq -r .qopz89 | /bin/bash
+          echo $zro28 | jq -r .i483 | /bin/bash
+
